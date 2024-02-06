@@ -1,17 +1,17 @@
 package Oops.Inhertance;
 
-public class Main {
-    public static void main(String[] args) {
+public class Main extends Object{
+    public static void main(String[] args)  {
 //        Box box1 = new Box(20,20,20);
 ////        System.out.println(box1.l);
-//        BoxWeight box2 = new BoxWeight(25,25,25,25);
+        Box box2 = new BoxWeight(25,25,25,25);
 //        int weight = box2.weight;
 //        System.out.println(weight +" wieght");
 //        BoxWeight box3 = new BoxWeight(20,20,20);
 //        System.out.println(box3.weight);
 
 
-        BoxPrice box4 = new BoxPrice();
+        BoxWeight box4 = new BoxPrice();
         System.out.println(box4.weight);
 
         BoxPrice box0 = new BoxPrice();
@@ -19,5 +19,7 @@ public class Main {
 
         BoxPrice box10 = new BoxPrice(50,50,50,500,50);
         System.out.println(box10.rate +" "+ box10.weight);
+
+
     }
 }
