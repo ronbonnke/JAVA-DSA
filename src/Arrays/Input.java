@@ -15,6 +15,8 @@ public class Input {
             str[i] = sc.next();
         }
 //        System.out.println(Arrays.toString(arr));
+        // modify
+        str[1] = "bonnke";
         System.out.println(Arrays.toString(str));
     }
 }
