@@ -1,4 +1,4 @@
-package LEETCODE.java;
+package Leetcodejava;
 import java.util.Arrays;
 
 // when we add two indexes we must get the target value
