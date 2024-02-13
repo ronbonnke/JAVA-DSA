@@ -1,16 +1,9 @@
 package Oops.Encapsulation;
 
 public class Human {
-    protected int age;
-    private String name;
+    private int[] data;
+    private int DEFAULT_SIZE = 10;
+    private int size = 0;
 
-
-
-    public void getage(){
-        System.out.println(age);
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
+    
 }
