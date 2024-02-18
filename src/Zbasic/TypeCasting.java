@@ -1,3 +1,5 @@
+package Zbasic;
+
 import java.util.Scanner;
 
 public class TypeCasting {

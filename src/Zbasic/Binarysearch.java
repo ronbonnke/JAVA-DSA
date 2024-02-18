@@ -1,3 +1,5 @@
+package Zbasic;
+
 import java.util.Scanner;
 public class Binarysearch {
     public static void main(String[] args) {

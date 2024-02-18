@@ -1,5 +1,6 @@
+package Zbasic;
 
-//public class Linear {
+//public class Zbasic.Linear {
         //    public static void main(String[] args) {
 //        int[]arr = {2,3,4,5,7,11,14};
 //        int target = 7;
