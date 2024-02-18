@@ -1,3 +1,5 @@
+package Zbasic;
+
 import java.util.Arrays;
 public class siuuuu {
     public static void main(String[] args) {
