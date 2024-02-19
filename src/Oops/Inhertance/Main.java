@@ -11,7 +11,7 @@ public class Main extends Object{
 //        int weight = box2.weight;
 //        System.out.println(weight +" weight");
 //        BoxWeight box3 = new BoxWeight(20,20,20);
-//        System.out.println(box3.weight);
+//        System.out.println(box2.weight);
 
 
         BoxWeight box4 = new BoxPrice();
@@ -26,6 +26,10 @@ public class Main extends Object{
         BoxWeight box15 = new BoxPrice(200,130);
         System.out.println(box15.side+" "+box15.weight+"kg");
 
+        BoxColor b15 = new BoxColor();
+        System.out.println(b15.color);
 
+        BoxColor b16 = new BoxColor("orange");
+        System.out.println(b16.color);
     }
 }

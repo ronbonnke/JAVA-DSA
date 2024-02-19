@@ -7,10 +7,9 @@ public class Box extends Object{
     int w;
 
     static int p = 35;
-    public static void fun(){
+    public static void fun() {
         System.out.println(" I am a box");
-    };
-
+    }
     Box(){
         this.l = 1;
         this.h =1;
