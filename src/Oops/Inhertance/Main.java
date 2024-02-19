@@ -2,11 +2,14 @@ package Oops.Inhertance;
 
 public class Main extends Object{
     public static void main(String[] args)  {
+
 //        Box box1 = new Box(20,20,20);
 ////        System.out.println(box1.l);
+
         Box box2 = new BoxWeight(25,25,25,25);
+
 //        int weight = box2.weight;
-//        System.out.println(weight +" wieght");
+//        System.out.println(weight +" weight");
 //        BoxWeight box3 = new BoxWeight(20,20,20);
 //        System.out.println(box3.weight);
 
