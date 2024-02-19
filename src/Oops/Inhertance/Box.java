@@ -5,6 +5,7 @@ public class Box extends Object{
     int l;
     int h;
     int w;
+
     static int p = 35;
     public static void fun(){
         System.out.println(" I am a box");
@@ -24,6 +25,7 @@ public class Box extends Object{
     Box(int h , int w){
         this.h = h;
         this.w= w;
-
     }
+
+
 }

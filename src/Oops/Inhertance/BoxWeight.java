@@ -2,6 +2,8 @@ package Oops.Inhertance;
 
 public class BoxWeight extends Box{
     int weight;
+    int side;
+
 
 
     BoxWeight(){
@@ -17,4 +19,8 @@ public class BoxWeight extends Box{
         super(h , w);
         this.weight = weight;
     }
+    BoxWeight(int side){
+        this.side=side;
+    }
+
 }

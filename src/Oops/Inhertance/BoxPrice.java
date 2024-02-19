@@ -10,4 +10,8 @@ public class BoxPrice extends BoxWeight{
         super(l,h,w,weight);
         this.rate = rate;
     }
+    BoxPrice(int side, int weight){
+        super(side);
+        this.weight=weight;
+    }
 }
