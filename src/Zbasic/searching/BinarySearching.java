@@ -1,7 +1,7 @@
-package Zbasic;
+package Zbasic.searching;
 
 class BinarySearch{
-    // Java implementation of recursive Zbasic.Binary Search
+    // Java implementation of recursive Zbasic.searching.Binary Search
         // Returns index of x if it is present in arr[l..
         // r], else return -1
         int binarySearch(int arr[], int l, int r, int x)

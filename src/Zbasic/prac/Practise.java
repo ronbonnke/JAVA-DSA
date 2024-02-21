@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.prac;
 
 
 import java.util.Scanner;
