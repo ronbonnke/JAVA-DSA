@@ -7,11 +7,11 @@ public class Cube extends Shapes{
 
     @Override
     void color() {
-
+        System.out.println("greenish");
     }
 
     @Override
     void size() {
-
+        System.out.println("100");
     }
 }

@@ -3,11 +3,14 @@ package Oops.Polymorphism.rtpmethodoverriding;
 public class Main extends Object{
 
     public static void main(String[] args) {
-        Shapes shape1 = new Circle();
+        Shapes shape1 = new Cube();
         shape1.shape();
         shape1.color();
-        Shapes shape2 = new Rectangle();
+        shape1.size();
 
+        Shapes shape2 = new Rectangle();
+        shape2.size();
+        shape2.shape();
         fun("Stephen");
        int res= fun(20);
         System.out.println(res);
