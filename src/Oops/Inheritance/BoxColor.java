@@ -1,4 +1,4 @@
-package Oops.Inhertance;
+package Oops.Inheritance;
 
 public class BoxColor extends BoxWeight{
      String color;

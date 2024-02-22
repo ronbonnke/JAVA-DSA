@@ -1,4 +1,4 @@
-package Oops.Polymorphism.ctpmethodoverloading;
+package Oops.Polymorphism.CTPmethoverloading;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Oops.Polymorphism.rtpmethodoverriding;
+package Oops.Polymorphism.RTPmethoverriding;
 
 public class Circle extends Shapes{
 

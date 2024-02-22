@@ -1,4 +1,4 @@
-package Oops.Polymorphism.rtpmethodoverriding;
+package Oops.Polymorphism.RTPmethoverriding;
 
 public class A {
     int a =10;

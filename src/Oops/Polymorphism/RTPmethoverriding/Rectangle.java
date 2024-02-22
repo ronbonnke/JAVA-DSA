@@ -1,4 +1,4 @@
-package Oops.Polymorphism.rtpmethodoverriding;
+package Oops.Polymorphism.RTPmethoverriding;
 
 public class Rectangle extends Shapes{
     void shape(){
