@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.prac;
 
 public class Questions {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.prac;
 
 public class Scope {
     public static void main(String[] args) {

@@ -34,3 +34,7 @@ public class Basic {
         }
     }
 }
+
+
+
+//   .`.   enums can create as many interfaces we want.

@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.Maths;
 
 public class Swap {
     public static void main(String[] args) {

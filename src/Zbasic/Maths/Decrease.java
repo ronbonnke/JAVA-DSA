@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.Maths;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.prac;
 
 public class Shadowing {
     static int x = 50;  //initializing class variable:  line 7 is shadowed here
