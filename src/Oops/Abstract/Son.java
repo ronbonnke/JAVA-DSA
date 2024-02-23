@@ -12,7 +12,10 @@ public class Son extends Parent {
     }
 
     @Override
-    void partner() {
+    public void partner() {
         System.out.println("I love wonder woman ");
+    }
+    public void greet(){
+        System.out.println("hello everyone");
     }
 }
