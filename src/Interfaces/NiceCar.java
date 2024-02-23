@@ -24,7 +24,11 @@ public class NiceCar {
         player.stop();
     }
 
-    public void UpgradeEngine(Engine engine){
-        this.engine = engine;
+//    public void UpgradeEngine(Engine engine){
+//        this.engine = engine;
+//    }
+
+    public void UpgradeEngine(){
+        this.engine = new ElectricEngine();
     }
 }

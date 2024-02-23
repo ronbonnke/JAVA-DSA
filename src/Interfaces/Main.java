@@ -19,10 +19,23 @@ public class Main {
 //        pow.stop();
 
 
-        NiceCar car = new NiceCar();
-            car.start();
-            car.StartMusic();
+//        NiceCar car = new NiceCar();
+//        car.start();
+//        car.StartMusic();
+//        car.UpgradeEngine();
+//        car.start();
+        ElectricEngine engine = new ElectricEngine();
+        NiceCar car1 = new NiceCar(engine);
+            car1.start();
+            car1.StartMusic();
+            car1.StopMusic();
+            car1.UpgradeEngine();
+            car1.start();
 
+            PowerEngine engine2 = new PowerEngine();
+        NiceCar car2 = new NiceCar(engine2);
+            car2.start();
+        car2.StopMusic();
 
 
     }
