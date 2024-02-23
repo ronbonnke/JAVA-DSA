@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.prac;
 
 public class LL {
     private Node head;

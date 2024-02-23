@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.Maths;
 
 public class Num {
     public static void main(String[] args) {

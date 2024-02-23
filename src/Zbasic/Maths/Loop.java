@@ -1,4 +1,4 @@
-package Zbasic;
+package Zbasic.Maths;
 
 
 // Example 1 { for Loop }
