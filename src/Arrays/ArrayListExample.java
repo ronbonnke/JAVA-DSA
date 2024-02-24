@@ -10,6 +10,7 @@ public class ArrayListExample {
         list.add(52);
         list.add(20);
         list.add(64);
+        list.remove(0);
 
         System.out.println(list.contains(57)); // checks whether the list has the given value inside it.
 
