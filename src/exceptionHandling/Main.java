@@ -12,7 +12,7 @@ public class Main {
             System.out.println(e.getMessage());
         }
         catch(Exception e){
-            System.out.println(e.getMessage());
+            System.out.println("Normal exception");
 
         }
         finally
@@ -21,9 +21,9 @@ public class Main {
         }
     }
     static int divide(int a, int b) throws Exception {
-//        if (b == 0){
-//            throw new ArithmeticException("IT CANNOT DIVIDE BY ZERO");
-//        }
+          if (b == 0){
+              throw new ArithmeticException("IT CANNOT DIVIDE BY ZERO");
+        }
         if(a  == 10){
             throw new Exception("Is EQUAL");
         }
