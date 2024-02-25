@@ -19,6 +19,7 @@ public class CustomGenericArrayList<T> {
             size++;
         }
         void doubles(){
+//            Object[] temp = new Object[arr.length*2];
             Object[] temp = new Object[arr.length+2];
 
             //copy the current items to new array
@@ -60,11 +61,11 @@ public class CustomGenericArrayList<T> {
         }
     public static void main(String[] args) {
                 CustomGenericArrayList<Integer> list3 = new CustomGenericArrayList<>();
-                list3.add(25);
-                list3.add(37);
-                list3.add(22);
+        for (int i = 0; i < 14; i++) {
+            list3.add(2*i);
+        }
                 System.out.println(list3);
-                list3.remove();
+
 
         }
     }
