@@ -1,16 +1,16 @@
-package generics;
+package generics.ArrayList;
 
 import java.util.Arrays;
 
-public class CusArrayList {
-  int[] arr;
+public class CusArrayList <T>{
+    Object[] arr;
   int Def = 5;
   int size;
 
   CusArrayList(){
-      arr = new int[Def];
+      arr = new Object[Def];
   }
-  void add(int value){
+  void add(T value){
       if(isFull()){
           doubles();
       }
@@ -18,7 +18,7 @@ public class CusArrayList {
       size++;
   }
   void doubles(){
-int[] temp = new int[arr.length+2];
+Object[] temp = new Object[arr.length+2];
 
         //copy the current items to new array
       for (int i = 0; i < arr.length; i++) {
@@ -28,17 +28,18 @@ int[] temp = new int[arr.length+2];
     }
 
 
-  void get(int index){
-      System.out.println(arr[index]);
+   public T get(int index){
+      return (T)arr[index];
   }
   void set(int index, int value){
       arr[index] = value;
   }
   void remove(){
-      int removed = arr[size];
+      int removed = (int) arr[size];
      size--;
      System.out.println(removed);
   }
+
   void delete(int index){
       for (int i = index; i < size-1; i++) {
           arr[i] = arr[i+1];

@@ -1,4 +1,4 @@
-package generics;
+package generics.ArrayList;
 
 import java.util.Arrays;
 
@@ -19,8 +19,8 @@ public class CustomGenericArrayList<T> {
             size++;
         }
         void doubles(){
-//            Object[] temp = new Object[arr.length*2];
-            Object[] temp = new Object[arr.length+2];
+            Object[] temp = new Object[arr.length*2];
+//            Object[] temp = new Object[arr.length+2];
 
             //copy the current items to new array
             for (int i = 0; i < arr.length; i++) {
@@ -41,6 +41,7 @@ public class CustomGenericArrayList<T> {
             size--;
             return removed;
         }
+
         void delete(int index){
             for (int i = index; i < size-1; i++) {
                 arr[i] = arr[i+1];
@@ -65,6 +66,11 @@ public class CustomGenericArrayList<T> {
             list3.add(2*i);
         }
                 System.out.println(list3);
+        list3.add(46);
+        System.out.println(list3.remove());
+        System.out.println(list3);
+//        list3.add(50);
+        System.out.println(list3);
 
 
         }

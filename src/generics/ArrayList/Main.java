@@ -1,19 +1,21 @@
-package generics;
+package generics.ArrayList;
 
-import java.util.Arrays;
+import generics.ArrayList.CusArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        CusArrayList list = new CusArrayList();
+        CusArrayList<String> list = new CusArrayList<>();
 
-        list.add(1);
-        list.add(1);
-        list.add(1);
-        list.add(1);
-        list.add(1);
-        list.add(1);
+//        list.add(5);
+//        list.add(1);
+//        list.add(1);
+//        list.add(1);
+//        list.add(1);
+//        list.add(1);
+        list.add("String");
+        System.out.println(list.get(0));
         System.out.println(list);
 
 //        list.add(20);
