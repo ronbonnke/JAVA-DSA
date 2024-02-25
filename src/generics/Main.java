@@ -44,16 +44,16 @@ public class Main {
 //        list.add(79);
 //        list.add(79);
 //
-////        System.out.println(Arrays.toString(list.arr));
+//        System.out.println(Arrays.toString(list.arr));
 //        list.get(1);
-////        System.out.println(list);
-////        list.insert(0,40);
-////        list.remove(2);
-////        System.out.println(list);
+//        System.out.println(list);
+//        list.insert(0,40);
+//        list.remove(2);
+//        System.out.println(list);
 //        list.add(33);
-////        System.out.println(list);
-////        list.print();
-////        System.out.println(list.removelast());
+//        System.out.println(list);
+//        list.print();
+//        System.out.println(list.removelast());
 //        list.add(44);
 //        list.delete(2);
 //        System.out.println(list);

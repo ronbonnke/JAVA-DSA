@@ -19,6 +19,8 @@ public class CusArrayList {
   }
   void doubles(){
 int[] temp = new int[arr.length+2];
+
+        //copy the current items to new array
       for (int i = 0; i < arr.length; i++) {
           temp[i] = arr[i];
       }
