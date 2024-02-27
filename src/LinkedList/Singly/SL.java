@@ -4,6 +4,7 @@ public class SL {
 
     Node head;
     Node tail;
+    int size;
 
     public void insert(int val){
         Node node = new Node(val);
@@ -12,6 +13,7 @@ public class SL {
         if(tail == null){
             tail = head;
         }
+        size++;
     }
 
 
@@ -26,6 +28,23 @@ public class SL {
             }
             temp = temp.next;
         }
+        size++;
+    }
+    void removeLast() throws Exception{
+        if (head == null) {
+            throw new Exception("No single link list");
+        }
+
+        if (head.next == null) {
+
+            head = null;
+            return;
+        }
+        Node temp = head;
+        while (temp.next.next != null){
+            temp = temp.next;
+        }
+        temp.next = null;
     }
 
     void display(){
@@ -33,7 +52,7 @@ public class SL {
         while(temp != null){
             System.out.print(temp.val+" -> ");
             temp = temp.next;
-            head = temp;
+
         }
         System.out.println(" end");
     }

@@ -1,7 +1,7 @@
 package LinkedList.Singly;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         SL list = new SL();
        list.insert(10);
        list.insert(11);
@@ -9,6 +9,10 @@ public class Main {
        list.insert(41);
        list.last(500);
         list.display();
+      list.removeLast();
+      list.display();
+      list.display();
+
 
     }
 }
