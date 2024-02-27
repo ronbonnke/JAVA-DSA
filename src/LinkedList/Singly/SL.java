@@ -40,7 +40,7 @@ public class SL {
             head = null;
             return;
         }
-        Node temp = head;
+     Node temp = head;
         while (temp.next.next != null){
             temp = temp.next;
         }
