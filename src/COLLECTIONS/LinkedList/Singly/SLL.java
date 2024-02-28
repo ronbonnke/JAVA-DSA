@@ -1,6 +1,6 @@
 package COLLECTIONS.LinkedList.Singly;
 
-public class SL {
+public class SLL {
 
     Node head;
     Node tail;

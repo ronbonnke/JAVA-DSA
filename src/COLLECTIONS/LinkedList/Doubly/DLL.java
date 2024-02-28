@@ -1,6 +1,6 @@
 package COLLECTIONS.LinkedList.Doubly;
 
-public class DL {
+public class DLL {
 
     Node head;
 
@@ -14,6 +14,21 @@ public class DL {
             head = node;
     }
 
+    public void insertLast(int val){
+        Node node = new Node(val);
+        Node last = head;
+        node.next = null;
+        if (head == null){
+            node.prev = null;
+            head = node;
+            return;
+        }
+        while (last.next != null){
+            last = last.next;
+        }
+        last.next = node;
+        node.prev = last;
+    }
 
     void display() throws Exception{
         Node temp = head;
@@ -27,6 +42,11 @@ public class DL {
             temp = temp.next;
         }
         System.out.println(" END");
+        while (last != null){
+            System.out.print(last.val+ " -> ");
+            last = last.prev;
+        }
+        System.out.println(" START");
     }
 
 

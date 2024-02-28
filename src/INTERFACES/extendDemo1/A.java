@@ -1,4 +1,4 @@
-package Interfaces.extendDemo1;
+package INTERFACES.extendDemo1;
 
 public interface A {
     void fun();

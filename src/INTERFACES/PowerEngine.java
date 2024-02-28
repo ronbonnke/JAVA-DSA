@@ -1,4 +1,4 @@
-package Interfaces;
+package INTERFACES;
 
 public class PowerEngine implements Engine{
     @Override

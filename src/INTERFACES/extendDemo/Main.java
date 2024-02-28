@@ -1,7 +1,6 @@
-package Interfaces.extendDemo1;
+package INTERFACES.extendDemo;
 
-
-public class Main implements A, B {
+public class Main implements B{
     @Override
     public void fun() {
         System.out.println("have fun");

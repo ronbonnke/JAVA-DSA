@@ -1,4 +1,4 @@
-package Interfaces;
+package INTERFACES;
 
 public interface Engine {
 

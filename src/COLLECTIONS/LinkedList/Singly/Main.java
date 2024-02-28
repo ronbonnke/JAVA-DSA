@@ -2,7 +2,7 @@ package COLLECTIONS.LinkedList.Singly;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        SL list = new SL();
+        SLL list = new SLL();
        list.insert(10);
        list.insert(11);
        list.insert(31);
