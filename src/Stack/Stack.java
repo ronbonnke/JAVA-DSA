@@ -2,33 +2,44 @@ package Stack;
 
 import java.util.Arrays;
 
-public class Stack {
-    int[] arr;
-    int def_size = 10;
-    int size = -1;
+public class Stack <T>{
+    private Object[] arr;
+    private int DEFAULT_SIZE = 10;
+    private int size = 0;
+
     Stack(){
-        this.arr = new int[def_size];
+        arr = new Object[DEFAULT_SIZE];
     }
     Stack(int size){
-        this.arr = new int[size];
+    arr = new Object[size];
     }
-    void push(int val){
+
+    void push(T val){
+       if(isFull()){
+           dynamic();
+       }
+        arr[size] = val;
         size++;
-        this.arr[size] = val;
     }
 
     void pop(){
-
-//        arr[size] = 0;
         size--;
-
+        T popped = (T)arr[size];
+        arr[size] = 0;
+        System.out.println(popped);
     }
+
     void display(){
         System.out.println(Arrays.toString(arr));
-        System.out.print("[ ");
-        for (int i = 0; i <= size; i++) {
-            System.out.print(arr[i]+", ");
+    }
+    void dynamic(){
+        Object[] temp = new Object[arr.length*2];
+        for (int i = 0; i < arr.length; i++) {
+            temp[i]= arr[i];
         }
-        System.out.println(" ]");
+        arr = temp;
+    }
+    boolean isFull(){
+       return size == arr.length;
     }
 }
