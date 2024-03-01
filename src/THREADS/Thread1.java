@@ -1,10 +1,16 @@
 package THREADS;
 
-public class Thread1 extends Thread{
+public class Thread1 extends Thread {
+
+    public Thread1(String threadName){
+        super(threadName);
+    }
+
+
     @Override
     public void run() {
-        for (int i = 0; i < 10 ; i++) {
-            System.out.println(i);
+        for (int i = 0; i < 5; i++) {
+            System.out.println("inside "+ Thread.currentThread() +" " + i);
         }
     }
 }

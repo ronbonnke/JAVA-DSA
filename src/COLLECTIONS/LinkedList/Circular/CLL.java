@@ -31,6 +31,7 @@ public class CLL {
                 node = node.next;
             } while (node != head);
         }
+        System.out.println("HEAD");
     }
 
     class Node{
