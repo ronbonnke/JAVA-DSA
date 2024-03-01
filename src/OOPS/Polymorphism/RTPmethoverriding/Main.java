@@ -11,9 +11,16 @@ public class Main extends Object{
         Shapes shape2 = new Rectangle();
         shape2.size();
         shape2.shape();
+
+
         fun("Stephen");
        int res= fun(20);
         System.out.println(res);
+
+        Shapes shape3 = new Circle();
+        shape3.color();
+        shape3.size();
+        shape3.shape();
 
     }
 

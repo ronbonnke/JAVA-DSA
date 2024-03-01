@@ -5,12 +5,14 @@ public class Rectangle extends Shapes{
         System.out.println("i am rectangular");
     }
 
+
+    void size(){
+        System.out.println("I am small");
+    }
+
     @Override
     void color() {
 
     }
 
-    void size(){
-        System.out.println("I am small");
-    }
 }
