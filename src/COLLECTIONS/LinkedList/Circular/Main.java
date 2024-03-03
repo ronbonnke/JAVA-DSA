@@ -9,4 +9,5 @@ public class Main {
         list.insert(70);
         list.display();
     }
+
 }
