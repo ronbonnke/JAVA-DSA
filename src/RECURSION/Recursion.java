@@ -4,12 +4,12 @@ public class Recursion {
     public static void main(String[] args) {
         func1(1);
     }
-    static public void func1(int n) {
-        if(n == 5) {
-            System.out.println(n);
+    static public void func1(int val) {
+        if(val == 5) {
+            System.out.println(val);
             return;
         }
-        System.out.println(n);
-        func1(n + 1);
+        System.out.println(val);
+        func1(val + 1);
     }
 }
