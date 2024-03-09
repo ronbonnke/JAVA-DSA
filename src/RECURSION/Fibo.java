@@ -8,6 +8,6 @@ public class Fibo {
         if(n < 2){
             return n;
         }
-        return  fibo(n-1)+ fibo(n-20);
+        return  fibo(n-1)+ fibo(n-2);
     }
 }
